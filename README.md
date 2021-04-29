@@ -49,7 +49,7 @@ Results were not good enough.
   - rmse 1450.458
   - mape 0.112
   
-  <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/SARIMAX%20Top%205.png" width="500" height="300">
+  <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/SARIMAX%20UnSig.png" width="500" height="300">
   
 - Training yeilds that the only Statistically significant indicies W/ large coefficients (Influence of SARIMAX model) are
   - C4_Restrictions on gatherings
@@ -59,7 +59,7 @@ Results were not good enough.
   - rmse 1463.860
   - mape 0.113
 
-  <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/SARIMAX%20UnSig.png" width="500" height="300">
+  <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/SARIMAX%20Top%205.png" width="500" height="300">
 
  - Despite all this work on trying to build a SARIMAX model and finding the perfect exogenous data set to support it's predictions, the mannually tuned SARIMA Model previously built (2) outperforms all SARIMAX models. for that reason I will use that model to do my one month out prediction.
 
@@ -68,5 +68,6 @@ Results were not good enough.
 Forcasting for one month out is as expected a very difficult task as 1 month is a long time however it is reassuring that the forcast's lower bound is very close to actual cases.
 
 A reminder of the 2-week forcast's outcome:
+
 <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/Best%202-Week%20Prediction%20(Manually%20Tuned%20SARIMA).png" width="500" height="300">
 
